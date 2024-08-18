@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Alerta com Bootstrap</title>
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="alert alert-success" id="alerta">
+    Cadastro realizado com sucesso!
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    function fecha() {
+        $("#alerta").addClass("d-none");
+    }
+
+    setTimeout(fecha, 5000);
+</script>
+
+</body>
+</html>
